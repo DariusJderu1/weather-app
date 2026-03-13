@@ -1,0 +1,25 @@
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    padding-top: clamp(1rem, 3.5vh, 4rem);
+    padding-bottom: clamp(1rem, 3.5vh, 4rem);
+
+    background-color: var(--bg-card);
+    color: var(--text-primary);
+
+    h1 {
+
+        font-size: var(--fs-title);
+        font-family: var(--logo-font);
+    }
+
+    span.material-symbols-outlined {
+
+        font-size: clamp(1.8rem, 4.5vw + 0.5rem, 3.8rem);
+    }
+    
+}
