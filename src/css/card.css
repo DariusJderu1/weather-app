@@ -6,7 +6,7 @@ div#card-container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: clamp(1rem, 2vh, 2rem);
+    gap: clamp(1rem, 2.2vh, 2rem);
 
     width: clamp(280px, 80vw, 380px);
 
@@ -15,7 +15,7 @@ div#card-container {
 
     text-align: center;
 
-    padding: clamp(1.5rem, 4vw, 3rem);
+    padding: clamp(1.5rem, 3.5vw, 2.7rem);
 
     border-radius: 15px;
 }
