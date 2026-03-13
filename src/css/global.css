@@ -17,9 +17,6 @@
     /* Main text and titles */  
     --text-primary: #FFFFFF; 
 
-    /* Subtitles and minor details */  
-    --text-secondary: #A3B18A; 
-
     /* Search button and highlights */
     --accent-color: #E6A503;   
 
@@ -29,18 +26,19 @@
     --body-font: "Karla", sans-serif;
 
 
-    /* FONT SIZES */
-    /* Big temperature numbers */
-    --fs-temp: clamp(2.5rem, 6vw + 1rem, 4.5rem);   
+    /* FONT SIZES */  
 
     /* The main "Weather App" header */
-    --fs-title: clamp(1.75rem, 4vw + 0.5rem, 2.5rem); 
-
+    --fs-title: clamp(1.7rem, 3.5vw + 0.5rem, 2.7rem);
+    
     /* The city name */
-    --fs-city: clamp(1.5rem, 3vw + 0.5rem, 2rem);    
+    --fs-city: clamp(1.5rem, 3vw + 1rem, 2.5rem);
+
+    /* Big temperature numbers */
+    --fs-temp: clamp(1.5rem, 3vw + 1rem, 2.5rem);     
 
     /* The weather details */
-    --fs-body: clamp(1rem, 1.5vw + 0.5rem, 1.15rem);  
+    --fs-body: clamp(1.2rem, 1.5vw + 0.5rem, 1.2rem);  
 
     /* The search bar input and button text */
     --fs-small: clamp(1.1rem, 1vw + 0.5rem, 1.3rem);

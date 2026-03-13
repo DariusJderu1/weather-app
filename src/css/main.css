@@ -8,6 +8,8 @@ main {
     flex-direction: column;
     align-items: center;
 
+    gap: clamp(1.5rem, 6.5vh, 6rem);
+
     padding-top: clamp(1rem, 5.5vh, 5rem);
 }
 
