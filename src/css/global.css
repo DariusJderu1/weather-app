@@ -9,7 +9,7 @@
 
     /* COLORS */
     /* Main page background */
-    --bg-main: #E8F5E9;      
+    --bg-main: #A5D6A7;      
 
     /* Header and weather cards */  
     --bg-card: #1B4332;      
@@ -21,7 +21,7 @@
     --text-secondary: #A3B18A; 
 
     /* Search button and highlights */
-    --accent-color: #FFB703;   
+    --accent-color: #E6A503;   
 
     
     /* FONTS */
@@ -43,7 +43,7 @@
     --fs-body: clamp(1rem, 1.5vw + 0.5rem, 1.15rem);  
 
     /* The search bar input and button text */
-    --fs-small: clamp(0.85rem, 1vw + 0.5rem, 0.95rem);
+    --fs-small: clamp(1.1rem, 1vw + 0.5rem, 1.3rem);
 }
 
 body {

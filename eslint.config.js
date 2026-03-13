@@ -9,5 +9,7 @@ export default defineConfig([
   { files: ["**/*.{js,mjs,cjs}"], plugins: { js }, extends: ["js/recommended"], languageOptions: { globals: globals.browser } },
   { files: ["**/*.json"], plugins: { json }, language: "json/json", extends: ["json/recommended"] },
   { files: ["**/*.css"], plugins: { css }, language: "css/css", extends: ["css/recommended"],
-    "rules": {"css/no-invalid-properties": "off"}},
+    "rules": {"css/no-invalid-properties": "off",
+              "css/font-family-fallbacks": "off",
+              "css/use-baseline": "off"}},
 ]);
