@@ -1,0 +1,56 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* COLORS */
+    /* Main page background */
+    --bg-main: #E8F5E9;      
+
+    /* Header and weather cards */  
+    --bg-card: #1B4332;      
+
+    /* Main text and titles */  
+    --text-primary: #FFFFFF; 
+
+    /* Subtitles and minor details */  
+    --text-secondary: #A3B18A; 
+
+    /* Search button and highlights */
+    --accent-color: #FFB703;   
+
+    
+    /* FONTS */
+    --logo-font: "Fraunces", serif;
+    --body-font: "Karla", sans-serif;
+
+
+    /* FONT SIZES */
+    /* Big temperature numbers */
+    --fs-temp: clamp(2.5rem, 6vw + 1rem, 4.5rem);   
+
+    /* The main "Weather App" header */
+    --fs-title: clamp(1.75rem, 4vw + 0.5rem, 2.5rem); 
+
+    /* The city name */
+    --fs-city: clamp(1.5rem, 3vw + 0.5rem, 2rem);    
+
+    /* The weather details */
+    --fs-body: clamp(1rem, 1.5vw + 0.5rem, 1.15rem);  
+
+    /* The search bar input and button text */
+    --fs-small: clamp(0.85rem, 1vw + 0.5rem, 0.95rem);
+}
+
+body {
+
+    font-family: "Montserrat", system-ui, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
