@@ -1,4 +1,4 @@
-div#card-container {
+div.card-container {
 
     background-color: #344E41;
 
@@ -20,20 +20,20 @@ div#card-container {
     border-radius: 15px;
 }
 
-#card-container h2 {
+.card-container h2 {
 
     color: var(--bg-main);
 
     font-size: var(--fs-city);
 }
 
-#card-container p {
+.card-container p {
 
     color: var(--text-primary);
     font-size: var(--fs-body);
 }
 
-#card-container p.temperature {
+.card-container p.temperature {
 
     font-size: var(--fs-temp);
 }
