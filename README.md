@@ -15,4 +15,3 @@ A responsive, client-side weather application built with vanilla JavaScript. It 
 * Search functionality for retrieving weather by city name.
 * Displays current temperature, feels-like temperature, humidity percentage, and wind speed.
 * Error handling for invalid inputs or unfound cities.
-* Responsive design that adapts to mobile, tablet, and desktop screens.
