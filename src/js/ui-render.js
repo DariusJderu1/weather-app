@@ -5,8 +5,6 @@ const divContentContainer = document.getElementById("content-container");
 const form = document.querySelector("form#city-form");
 const searchInput = document.getElementById("search-input");
 
-
-
 export const startApplication = () => {
 
     form.addEventListener("submit", async (event) => {
